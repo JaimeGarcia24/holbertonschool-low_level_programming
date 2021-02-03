@@ -1,1 +1,1 @@
-# First project in C language (Hello,world):computer:
+# First project in C language :computer:
