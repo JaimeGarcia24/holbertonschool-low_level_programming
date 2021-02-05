@@ -1,17 +1,20 @@
-#include <stdlib.h>
+##include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+
 /**
- * main - Print numbers 0-9
+ * main - Reverse alphabet
  *
- * Return: 0 
+ * Return: 0 for success
  */
 int main(void)
 {
-int NB;
+char NB = 'a';
 
-for (NB = 0; NB <= 9; NB++)
-putchar(NB + '0');
+for (NB = 'z'; NB >= 'a'; NB--)
+putchar(NB);
+
 putchar('\n');
+
 return (0);
 }
