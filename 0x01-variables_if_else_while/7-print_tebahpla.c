@@ -1,20 +1,20 @@
-#include <stdlib.h>
+##include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 
 /**
- * main - reverse alphabet
+ * main - Reverse alphabet
  *
- * Return: 0 
+ * Return: 0 for success
  */
 int main(void)
 {
-char alphab;
+char NB = 'a';
 
-for (alphab = 'z'; alphab >= 'a'; alphab--)
-putchar(alphab);
+for (NB = 'z'; NB >= 'a'; NB--)
+putchar(NB);
 
 putchar('\n');
 
-  return (0);
+return (0);
 }
