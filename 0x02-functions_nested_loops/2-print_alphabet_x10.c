@@ -8,13 +8,13 @@
 
 void print_alphabet_x10(void)
 {
-int Diez, alphab;
+int Diez, alp;
 
 for (Diez = 0; Diez <= 9 ; Diez++)
 {
-for (alphab = 97; alphab <= 122; alphab++)
+for (alp = 97; al <= 122; alp++)
 {
-_putchar(alphab);
+_putchar(alp);
 }
 _putchar(10);
 }
