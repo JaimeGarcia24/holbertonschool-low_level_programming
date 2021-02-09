@@ -13,5 +13,5 @@ for (alphab = 97; alphab <= 122; alphab++)
 {
 _putchar(alphab);
 }
-_putchar(10);
+_putchar('\n');
 }
