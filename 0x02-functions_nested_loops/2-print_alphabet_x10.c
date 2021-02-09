@@ -8,14 +8,14 @@
 
 void print_alphabet_x10(void)
 {
-int Diez, alp;
+int alp, boosts;
 
-for (Diez = 0; Diez <= 9 ; Diez++)
+for (boosts = 1; boosts <= 10 ; boosts++)
 {
-for (alp = 97; al <= 122; alp++)
+for (alp = 'a'; alp <= 'z'; alp++)
 {
 _putchar(alp);
 }
-_putchar(10);
+_putchar('\n');
 }
 }
