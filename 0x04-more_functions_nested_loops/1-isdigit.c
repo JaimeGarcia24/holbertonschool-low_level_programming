@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * _isdigit - checks if is a number between 0 to 9.
  * @c: input number.
@@ -7,7 +6,7 @@
  */
 int _isdigit(int c)
 {
-  if (c >= 48 && c <= 57)
+if (c >= 48 && c <= 57)
 {
 return (1);
 }
