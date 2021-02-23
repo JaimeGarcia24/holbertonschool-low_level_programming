@@ -1,0 +1,20 @@
+#incluye  " holberton.h "
+
+/**
+ * _memset - Esta es mi función copiar el número del carácter a S
+ * @s: Esta es mi entrada y regreso
+ * @b: este es el carácter a copiar
+ * @n: este es el número de bytes
+ *
+ * Retorno: Este es mi resultado y Retorno S
+ */
+char *_memset (char *s, char b, unsigned  int n)
+{
+unsigned  int a;
+
+para (a = 0 ; a <n; a ++)
+{
+s[a] = b;
+}
+retorno (s);
+}
